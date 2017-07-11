@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://cdn.bootcss.com/echarts/3.6.1/echarts.js"></script>
+    <script src="./js/jquery-3.2.1.js" type="text/javascript"></script>
+    <script src="G3/G3.js" type="text/javascript"></script>
+    <script src="./js/main.js" type="text/javascript"></script>
+    <script src="./js/echarts-liquidfill.min.js"></script>
+    <style>
+        /*以下没人要的是组长的*/
+        #Bar, #Bar2, #Line{
+            width: 500px;
+            height: 500px;
+            float: left;
+            border: 1px solid #ccc;
+            margin: 5px;
+            /*overflow: hidden;*/
+        }
+        /*以下是明明的东西*/
+        #HeatMap,#Graph,#GraphCircular,#GraphNone,#GraphForce,#PolarLine,#HeatMapAxis{
+             width: 500px;
+             height: 500px;
+             float: left;
+            border: 1px solid #ccc;
+            margin: 5px;
+
+
+        }
+        /*以下是玲玲的东西*/
+        #Map ,#Pie,#MapLinesScatter,#MapScatter,#PieRose,#LiquidFill,#BarRadiusPolar,#BarAnglePolar,.PieHalfRose{
+            width: 500px;
+            height: 500px;
+            float: left;
+            border: 1px solid #ccc;
+            margin: 5px;
+        }
+        #PieHalfRose,.bgPieHalfRose{
+            width: 500px;
+            height: 500px;
+            float: left;
+        }
+
+        /*以下是慧慧的东西*/
+        #BarLine ,#PictorialBar ,#Scatter , #PictorialBarCustomize,#Radar,#RadarCustomize{
+            width: 500px;
+            height: 500px;
+            float: left;
+            border: 1px solid #ccc;
+            margin: 5px;
+
+
+        }
+    </style>
+</head>
+<body>
+<div id="Bar" ></div>
+<div id="Bar2"></div>
+<div id="Line"></div>
+<div id="BarLine"></div>
+<div id="BarRadiusPolar"></div>
+<div id="BarAnglePolar"></div>
+<div id="PictorialBarCustomize"></div>
+<div id="PictorialBar"></div>
+
+
+<div id="PolarLine"></div>
+
+<div id="Scatter"></div>
+
+<div id="Radar"></div>
+<div id="RadarCustomize"></div>
+
+<div id="HeatMap"></div>
+<div id="HeatMapAxis"></div>
+
+<div id="Graph"></div>
+<div id="GraphNone"></div>
+<div id="GraphForce"></div>
+<div id="GraphCircular"></div>
+
+<div id="Pie"></div>
+<div id="PieRose"></div>
+<div class="PieHalfRose" style="background: rgb(43, 51, 59)">
+    <div class="bgPieHalfRose" style="background: url('img/Rosebg.png') no-repeat center;background-size: 65%">
+        <div id="PieHalfRose"></div>
+    </div>
+</div>
+
+<div id="Map"></div>
+<div id="MapScatter"></div>
+<div id="MapLinesScatter"></div>
+
+<div id="LiquidFill"></div>
+
+
+</body>
+
+</html>

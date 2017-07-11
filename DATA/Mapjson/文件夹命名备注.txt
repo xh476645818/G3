@@ -1,0 +1,6 @@
+备注：命名的内容
+province：这是省的带市的区线
+province-contour  这只是省的区线
+china   中国带省的边线
+china-cities  中国带省市的区线
+china-contour  这只是中国的区线
